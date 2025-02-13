@@ -41,6 +41,7 @@ const Register = () => {
  
 
   return (
+    <div className="bg-[url('/images/bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen w-full fixed top-0 left-0 flex items-center justify-center">
     <div className="bg-white p-8 rounded-lg w-full md:w-[500px]">
       <div className="mb-10">
         <h1 className="text-3xl uppercase font-bold text-center">Registrarse</h1>
@@ -119,7 +120,7 @@ const Register = () => {
           )}
         </div>
         <div>
-        <button className=' bg-sky-600 text-white w-full py-2 px-6 rounded-lg mt-6 hover:scale-105 transition-all'>
+        <button className=' bg-sky-300 text-gray-800 w-full py-2 px-6 rounded-4xl mt-6 hover:bg-green-300 transition-all'>
           Crear Cuenta
         </button>
       </div>
@@ -144,6 +145,7 @@ const Register = () => {
           </Link>
         </div>
       </div>
+    </div>
     </div>
   )
 }

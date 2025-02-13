@@ -37,7 +37,7 @@ const ForgetPassword = () => {
           />
         </div>
         <div>
-          <button className="bg-sky-600 text-white w-full py-2 px-6 rounded-lg mt-6 hover:scale-105 transition-all">
+          <button className="bg-sky-300 text-gray-800 w-full py-2 px-6 rounded-4xl mt-6 hover:bg-green-300 transition-all">
             Enviar Instrucciones
           </button>
         </div>

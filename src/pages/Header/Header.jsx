@@ -1,5 +1,5 @@
 import { FaBars } from 'react-icons/fa';
-import imagenes from "../../assets/images/images";
+import imagenes from "../../../public/images/images";
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ toggleSidebar }) => {

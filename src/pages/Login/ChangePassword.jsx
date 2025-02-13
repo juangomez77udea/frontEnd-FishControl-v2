@@ -39,6 +39,7 @@ const ChangePassword = () => {
   }
 
   return (
+    
     <div className=' bg-white p-8 rounded-lg w-full md:w-96'>
       <div className=' mb-10'>
         <h1 className=' text-3xl uppercase font-bold text-center'>Actualizar Contraseña</h1>
